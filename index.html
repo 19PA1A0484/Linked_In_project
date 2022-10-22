@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>website design</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="logo"><img src="images/logo.png"></a>
+                <div class="search">
+                    <img src="images/search.png">
+                    <input  type="text" name="search-bar" placeholder=" Search.." class="search">
+                </div>
+            </div>
+            <div class="nav-center">
+                <ul>
+                    <li><a herf="#" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a></li>
+                    <li><a herf="#"><img src="images/network.png" alt=""><span>My Network</span></a></li>
+                    <li><a herf="#"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li>
+                    <li><a herf="#"><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+                    <li><a herf="#"><img src="images/notification.png" alt=""><span>Notification</span></a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="online">
+                    <img src="images/subbu.png" class="nav-profile-img" onclick="toggleMenu()">
+                </div>
+            </div>
+            <div class="profilemenuwrap" id="profileMenu">
+                <div class="profilemenu">
+                    <div class="userinfo">
+                        <img src="images/subbu.png">
+                        <div>
+                            <h3>Subbarami Reddy</h3>
+                            <a href="#">See Your Profile</a>
+                        </div>
+                    </div>
+                <hr>
+                <a href="#" class="profilemenulink">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profilemenulink">
+                    <img src="images/setting.png">
+                    <p>Settings and Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profilemenulink">
+                    <img src="images/help.png">
+                    <p>Help and Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profilemenulink">
+                    <img src="images/display.png">
+                    <p>Display & Accesibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profilemenulink">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="left-sidebar">
+                <div class="profile-box">
+                    <img src="images/car123.jpg" width="100%" class="car3">
+                    <div class="profile-info">
+                        <img src="images/subbu.png">
+                        <h1>Kothapalli <br>Venkatasubbaramireddy</h1>
+                        <h3>Full stack developer, Machine learning, Fresher</h3>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <ul>
+                            <li>Who's viewed your profile <span>20</span></li>
+                            <li>Impressions of your posts <span>46</span></li>
+                        </ul>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <div class="access">
+                            <ul>
+                                <li><h6>Access exclusive tools & insights</h6></li>
+                                <div class="premium">
+                                    <img src="images/premium.png">
+                                    <h5>Try Premium for free</h5>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <div class="myitems">
+                            <img src="images/items.png">
+                            <h5>My items</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity">
+                    <h3>RECENT</h3>
+                    <a href="#"><img src="images/recent.png">Web Development</a>
+                    <a href="#"><img src="images/recent.png">User Inteface</a>
+                    <a href="#"><img src="images/recent.png">Block chain</a>
+                    <a href="#"><img src="images/recent.png">full stack development</a>
+                    <a href="#"><img src="images/recent.png">Learn Online</a>
+                    <a href="#"><img src="images/recent.png">Google and Facebook posts</a>
+                    <h3>Groups</h3>
+                    <a href="#"><img src="images/group.png">Web design group</a>
+                    <a href="#"><img src="images/group.png">Html and css learners</a>
+                    <a href="#"><img src="images/group.png">Python and javascript group</a>
+                    <a href="#"><img src="images/group.png">Data analytics and excel</a>
+                    <h3>Follwed Hashtags</h3>
+                    <a href="#"><img src="images/hashtag.png">Developers</a>
+                    <a href="#"><img src="images/hashtag.png">Freshers</a>
+                    <a href="#"><img src="images/hashtag.png">Ratan tata</a>
+                    <div class="vertical-line" style="width: 100%;"></div>
+                    <div class="discover">
+                        <a href="#">Discover more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="createpost">
+                    <div class="createpostinput">
+                        <img src="images/subbu.png">
+                        <textarea rows="2" placeholder="Write a Post"></textarea>
+                    </div>
+                    <div class="createpostlink">
+                        <li><img src="images/photo.png">Photo</li>
+                        <li><img src="images/video.png">Video</li>
+                        <li><img src="images/event.png">Event</li>
+                        <li>Post</li>
+                    </div>
+                </div>
+                <div class="sortby">
+                    <hr>
+                    <p>Sort by: <span> top <img src="images/down-arrow.png"></span></p>
+                </div>
+                <div class="post">
+                    <div class="postauther">
+                        <img src="images/hire pro.jpg">
+                        <div>
+                            <h1>Hire pro</h1>
+                            <h6>Full Stack Development | Hiring</h6>
+                            <small>2 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="postimages">
+                    <p>HirePro's AI-driven proctoring platform is designed to detect cheating during assessments and prevent impersonation throughout the hiring process.
+                    </p>
+                        <img src="images/hirepro1.jpg">
+                        <div class="poststats">
+                            <img src="images/thumbsup.png">
+                            <img src="images/love.png">
+                            <img src="images/clap.png">
+                            <span class="linkedusers">Dinesh and 40 others</span>
+                        </div>
+                        <div>
+                            <span class="comments">22 comments &middot; 40 shares</span>
+                        </div>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <div class="post-activity">
+                            <div class="post-activity-user-icon">
+                                <img src="images/subbu.png">
+                            </div>
+                            <div class="post-activity-arrow-icon">
+                                <img src="images/down-arrow.png">
+                            </div>
+                            <div class="post-activity-link1">
+                                <img src="images/like.png">
+                                <span>Likes</span>
+                            </div>
+                            <div class="post-activity-link2">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link3">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link4">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="post">
+                    <div class="postauther">
+                        <img src="images/google1.jpg">
+                        <div>
+                            <h1>Lavanya</h1>
+                            <h6>Data Scientist | Google</h6>
+                            <small>5 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="postimages">
+                    <p>Working as a data scientist can be intellectually challenging, analytically satisfying, 
+                        and put you at the forefront of new advances in technology. 
+                        Data scientists have become more common and in demand, as big data continues 
+                        to be increasingly important to the way organizations make decisions.
+                    </p>
+                        <img src="images/google.jpg">
+                        <div class="poststats">
+                            <img src="images/thumbsup.png">
+                            <img src="images/love.png">
+                            <img src="images/clap.png">
+                            <span class="linkedusers">Dinesh and 40 others</span>
+                        </div>
+                        <div>
+                            <span class="comments">22 comments &middot; 40 shares</span>
+                        </div>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <div class="post-activity">
+                            <div class="post-activity-user-icon">
+                                <img src="images/subbu.png">
+                            </div>
+                            <div class="post-activity-arrow-icon">
+                                <img src="images/down-arrow.png">
+                            </div>
+                            <div class="post-activity-link1">
+                                <img src="images/like.png">
+                                <span>Likes</span>
+                            </div>
+                            <div class="post-activity-link2">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link3">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link4">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="post">
+                    <div class="postauther">
+                        <img src="images/virtusa.jpg">
+                        <div>
+                            <h1>Virtusa</h1>
+                            <h6>700000 followers</h6>
+                            <small>7 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="postimages">
+                    <p>It's official - here is Virtusa's newest 
+                        office in Milpitas California! We broke in the new space last week with local clients and employees.
+                    </p>
+                        <img src="images/virtusa1.jpg">
+                        <div class="poststats">
+                            <img src="images/thumbsup.png">
+                            <img src="images/love.png">
+                            <img src="images/clap.png">
+                            <span class="linkedusers">Dinesh and 40 others</span>
+                        </div>
+                        <div>
+                            <span class="comments">22 comments &middot; 40 shares</span>
+                        </div>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <div class="post-activity">
+                            <div class="post-activity-user-icon">
+                                <img src="images/subbu.png">
+                            </div>
+                            <div class="post-activity-arrow-icon">
+                                <img src="images/down-arrow.png">
+                            </div>
+                            <div class="post-activity-link1">
+                                <img src="images/like.png">
+                                <span>Likes</span>
+                            </div>
+                            <div class="post-activity-link2">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link3">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link4">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="post">
+                    <div class="postauther">
+                        <img src="images/user-5.png">
+                        <div>
+                            <h1>Sagar Reddy</h1>
+                            <h6>B v Chalamayya Engineering college | ECE</h6>
+                            <small>14 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="postimages">
+                    <p>Engineers Day 2022 India occurs on 15th September in the country. 
+                        The day is celebrated on Visveshvaraya Jayanti 2022 as this day is the birth date of Sir M Visveshvaraya. Engineers Day 2022 Theme. The Engineering Day 2022 theme has not been announced yet officially. It is observed to pay the tribute to Sir Visveshvaraya. 
+                        The Engineers Day 2022 theme will be updated here once announce of it.
+                    </p>
+                        <img src="images/engineer.jpg">
+                        <div class="poststats">
+                            <img src="images/thumbsup.png">
+                            <img src="images/love.png">
+                            <img src="images/clap.png">
+                            <span class="linkedusers">Dinesh and 40 others</span>
+                        </div>
+                        <div>
+                            <span class="comments">22 comments &middot; 40 shares</span>
+                        </div>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <div class="post-activity">
+                            <div class="post-activity-user-icon">
+                                <img src="images/subbu.png">
+                            </div>
+                            <div class="post-activity-arrow-icon">
+                                <img src="images/down-arrow.png">
+                            </div>
+                            <div class="post-activity-link1">
+                                <img src="images/like.png">
+                                <span>Likes</span>
+                            </div>
+                            <div class="post-activity-link2">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link3">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link4">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="post">
+                    <div class="postauther">
+                        <img src="images/juan.jpg">
+                        <div>
+                            <h1>Juan F. Ortiz</h1>
+                            <h6>Managing Director - Central Region - Wealth Management at Northern Trust Corporation</h6>
+                            <small>14 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="postimages">
+                    <p>Engineers Day 2022 India occurs on 15th September in the country. 
+                        The day is celebrated on Visveshvaraya Jayanti 2022 as this day is the birth date of Sir M Visveshvaraya. Engineers Day 2022 Theme. The Engineering Day 2022 theme has not been announced yet officially. It is observed to pay the tribute to Sir Visveshvaraya. 
+                        The Engineers Day 2022 theme will be updated here once announce of it.
+                    </p>
+                        <img src="images/juan1.jpg">
+                        <div class="poststats">
+                            <img src="images/thumbsup.png">
+                            <img src="images/love.png">
+                            <img src="images/clap.png">
+                            <span class="linkedusers">Dinesh and 40 others</span>
+                        </div>
+                        <div>
+                            <span class="comments">22 comments &middot; 40 shares</span>
+                        </div>
+                        <div class="vertical-line" style="width: 100%;"></div>
+                        <div class="post-activity">
+                            <div class="post-activity-user-icon">
+                                <img src="images/subbu.png">
+                            </div>
+                            <div class="post-activity-arrow-icon">
+                                <img src="images/down-arrow.png">
+                            </div>
+                            <div class="post-activity-link1">
+                                <img src="images/like.png">
+                                <span>Likes</span>
+                            </div>
+                            <div class="post-activity-link2">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link3">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link4">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="right-sidebar">
+                <div class="news">
+                    <img src="images/more.png" class="info-icon">
+                    <h3>LinkedIn News</h3>
+                    <a herf="#">What determines a CEO's pay?</a>
+                    <span>2hours ago &middot; 10,934 readers</span>
+                    <a herf="#">UK PM Truss resigns after six weeks</a>
+                    <span>8hours ago &middot; 80,534 readers</span>
+                    <a herf="#">IT firms face high attrition</a>
+                    <span>22hours ago &middot; 19,934 readers</span>
+                    <a herf="#">Are you worried about a recession?</a>
+                    <span>1d ago &middot; 09,964 readers</span>
+                    <a herf="#">Tech Mahindra to hire 3,000</a>
+                    <span>2d ago &middot; 20,994 readers</span>
+
+                    <a href="#" class="Read-more">Read More</a>
+                    
+                </div>
+                <div class="ad">
+                    <small>Ad &middot; &middot; &middot;</small>
+                    <p>Let us keep you updated on the latest in green technologies</p>
+                    <div class="addimages">
+                        <img src="images/subbu.png">
+                        <img src="images/hitachi.jpeg">
+                    </div>
+                    <b>Hitachi Social Innovation is POWERING GOOD</b>
+                    <a href="#" class="ad-link">Follow</a>
+                </div>
+                <div class="useful-links">
+                    <a href="#">About</a>
+                    <a href="#">Accesibility</a>
+                    <a href="#">Help Henter</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Get the App</a>
+                    <a href="#">More</a>
+                    <div class="copy-right">
+                        <h3><b>LinkedIn</b></h3>
+                        <img src="images/logo.png">
+                        <p>LinkedIn Corporation © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+
+    </script>    
+
+
+
+
+
+
+
+    </body>
+</html>
